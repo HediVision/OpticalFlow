@@ -86,8 +86,8 @@ def runHornShunck(I_1,I_2):
 
 
 
-I_1=cv.imread('images/frame_1.tif',0)
-I_2=cv.imread('images/frame_2.tif',0)
+I_1=cv.imread('../images/frame_1.tif',0)
+I_2=cv.imread('../images/frame_2.tif',0)
 I_1=np.float64(I_1)*(1.0/255)
 I_2=np.float64(I_2)*(1.0/255)
 runHornShunck(I_1,I_2)
